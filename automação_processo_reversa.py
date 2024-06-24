@@ -93,7 +93,7 @@ last_nf = 0
 
 time.sleep(10)
 # Leitura do arquivo Excel contendo ocorrências de reversa
-ocr_reversa = pd.read_excel(r'G:\Drives compartilhados\MM - Logística - TRANSPORTES\SERVIDOR\56 - Qualidade Atendimento\25 - Gabi\Ocr_Reversa.xlsx')
+ocr_reversa = pd.read_excel(r'caminho_arquivo\Ocr_Reversa.xlsx')
 
 #dataframes que separaram cancelamento de coleta e prosseguir com coleta
 cancelar_coleta = ocr_reversa.drop(ocr_reversa.loc[(ocr_reversa['Posição Final'] != 'Cancelar coleta')] .index)
