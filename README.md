@@ -13,8 +13,28 @@ The bot performs tasks such as logging in, canceling collections, and proceeding
 • Provides a Tkinter-based GUI for user input.
 
 # Requirements
-  • Python 3.x;
-  • Selenium;
-  • pandas;
-  • tkinter;
-  • Chrome WebDriver;
+  • Python 3.x
+  
+  • Selenium
+  
+  • pandas
+  
+  • tkinter
+  
+  • Chrome WebDriver
+
+# Installation
+  1. Clone the repository:
+
+```
+git clone https://github.com/yourusername/logistics-reversal-bot.git
+cd logistics-reversal-bot
+
+```
+2. Install the required packages:
+
+```
+pip install selenium pandas tkinter
+
+```
+3. Download the ![Chrome WebDriver](https://developer.chrome.com/docs/chromedriver/downloads?hl=pt-br) and place it in your PATH or in the project directory.
